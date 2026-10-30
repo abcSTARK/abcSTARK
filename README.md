@@ -4,7 +4,7 @@
 
 Building AI developer tooling — agent memory systems, MCP servers, and the backend engineering underneath all of it.
 
-Currently @ **Societe Generale** · Bangalore, India · previously IBM
+Currently @ **IBM** · Bangalore, India · previously Societe Generale
 
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCvMjA3m4Ui3V6dE9CkjP34Q)
 [![X](https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white)](https://x.com/AniruddhaStark)
@@ -25,7 +25,7 @@ VS Code extension to debug and inspect Model Context Protocol servers right insi
 Adds a FastMCP-powered LLM context server to a VS Code workspace, giving coding agents richer, structured project context.
 
 **[team-wellbeing-agent](https://github.com/abcSTARK/team-wellbeing-agent)**
-AI agent on IBM watsonx Orchestrate that monitors team-health signals and proactively surfaces burnout/disengagement risk — built as a module of the AskManager platform.
+AI agent built on IBM watsonx Orchestrate that monitors team-health signals and proactively surfaces burnout/disengagement risk — a module of the AskManager platform.
 
 **[SG_HackerVerse_CO2_Emission](https://github.com/abcSTARK/SG_HackerVerse_CO2_Emission)**
 Data/AI project predicting CO2 emissions from transaction data, built for SG Hackerverse.
@@ -44,11 +44,6 @@ Spring Security + Swagger UI + DB-backed role-based auth + Spring AOP, with JUni
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=spring&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=abcSTARK&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub stats" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abcSTARK&layout=compact&hide_border=true" alt="Top languages" height="165"/>
-</div>
 
 ---
 
