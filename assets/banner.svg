@@ -1,48 +1,298 @@
-<svg width="1000" height="200" viewBox="0 0 1000 200" xmlns="http://www.w3.org/2000/svg">
+<svg width="1280" height="400" viewBox="0 0 1280 400" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f172a"/>
-      <stop offset="55%" stop-color="#1e293b"/>
-      <stop offset="100%" stop-color="#312e81"/>
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0f172a"/>
     </linearGradient>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#818cf8"/>
-      <stop offset="100%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#34d399"/>
     </linearGradient>
   </defs>
 
-  <rect width="1000" height="200" rx="14" fill="url(#bg)"/>
+  <rect width="1280" height="400" fill="url(#bg)"/>
 
-  <!-- subtle node/graph motif on the right, nodding to "agent memory" -->
-  <g stroke="#475569" stroke-width="1.5" opacity="0.6">
-    <line x1="760" y1="60" x2="840" y2="40"/>
-    <line x1="840" y1="40" x2="910" y2="75"/>
-    <line x1="840" y1="40" x2="820" y2="110"/>
-    <line x1="760" y1="60" x2="820" y2="110"/>
-    <line x1="820" y1="110" x2="900" y2="140"/>
-    <line x1="760" y1="60" x2="700" y2="120"/>
-    <line x1="700" y1="120" x2="820" y2="110"/>
-  </g>
-  <g fill="#38bdf8">
-    <circle cx="760" cy="60" r="5"/>
-    <circle cx="840" cy="40" r="5"/>
-    <circle cx="700" cy="120" r="4"/>
-  </g>
-  <g fill="#818cf8">
-    <circle cx="910" cy="75" r="5"/>
-    <circle cx="820" cy="110" r="6"/>
-    <circle cx="900" cy="140" r="4"/>
+  <g>
+  <text x="-2.1" y="15.2" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">AGENT</text>
+  <text x="53.1" y="14.8" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">&lt;/&gt;</text>
+  <text x="103.4" y="15.7" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">MEMORY</text>
+  <text x="146.7" y="15.9" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">{ }</text>
+  <text x="191.6" y="18.5" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">backend</text>
+  <text x="247.1" y="17.2" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">backend</text>
+  <text x="296.1" y="15.1" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">Java</text>
+  <text x="345.1" y="18.6" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">{ }</text>
+  <text x="389.1" y="18.6" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">backend</text>
+  <text x="438.2" y="19.7" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">&lt;/&gt;</text>
+  <text x="493.7" y="18.0" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">{ }</text>
+  <text x="544.9" y="17.7" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">TypeScript</text>
+  <text x="588.4" y="20.4" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">backend</text>
+  <text x="640.9" y="18.2" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">Spring</text>
+  <text x="686.7" y="21.8" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">MEMORY</text>
+  <text x="734.4" y="16.7" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">TypeScript</text>
+  <text x="782.2" y="19.3" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">{ }</text>
+  <text x="835.0" y="16.8" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">TypeScript</text>
+  <text x="881.0" y="14.7" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">watsonx</text>
+  <text x="937.7" y="14.5" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">watsonx</text>
+  <text x="982.0" y="17.1" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">Spring</text>
+  <text x="1039.1" y="16.8" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">&lt;/&gt;</text>
+  <text x="1083.0" y="15.7" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">watsonx</text>
+  <text x="1135.2" y="17.2" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">TypeScript</text>
+  <text x="1177.5" y="17.2" font-family="monospace" font-size="9" fill="#475569" opacity="0.10">watsonx</text>
+  <text x="1234.6" y="20.9" font-family="monospace" font-size="11" fill="#475569" opacity="0.12">watsonx</text>
+  <text x="5.8" y="59.5" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">Java</text>
+  <text x="45.0" y="55.4" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">backend</text>
+  <text x="92.6" y="60.6" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">MCP</text>
+  <text x="145.1" y="55.2" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">{ }</text>
+  <text x="198.2" y="56.5" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">MCP</text>
+  <text x="245.6" y="61.0" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">{ }</text>
+  <text x="294.2" y="57.2" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">TypeScript</text>
+  <text x="339.4" y="54.5" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">backend</text>
+  <text x="389.8" y="56.7" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">AGENT</text>
+  <text x="437.1" y="55.2" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">MEMORY</text>
+  <text x="493.7" y="54.6" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">backend</text>
+  <text x="537.3" y="56.0" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">Spring</text>
+  <text x="590.5" y="54.9" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">TypeScript</text>
+  <text x="639.8" y="56.5" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">MCP</text>
+  <text x="692.2" y="59.9" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">TypeScript</text>
+  <text x="738.7" y="55.6" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">{ }</text>
+  <text x="783.5" y="58.3" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">AGENT</text>
+  <text x="842.7" y="60.9" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">watsonx</text>
+  <text x="891.1" y="56.8" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">backend</text>
+  <text x="937.0" y="58.9" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">backend</text>
+  <text x="988.4" y="59.9" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">backend</text>
+  <text x="1034.1" y="56.8" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">AGENT</text>
+  <text x="1086.6" y="57.8" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">backend</text>
+  <text x="1131.7" y="61.5" font-family="monospace" font-size="10" fill="#475569" opacity="0.12">Spring</text>
+  <text x="1176.5" y="54.8" font-family="monospace" font-size="9" fill="#475569" opacity="0.14">TypeScript</text>
+  <text x="1228.8" y="57.9" font-family="monospace" font-size="9" fill="#475569" opacity="0.16">&lt;/&gt;</text>
+  <text x="-0.2" y="99.2" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">MEMORY</text>
+  <text x="54.1" y="100.3" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">backend</text>
+  <text x="103.1" y="97.5" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">Spring</text>
+  <text x="151.3" y="101.8" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">Java</text>
+  <text x="195.7" y="101.6" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">MCP</text>
+  <text x="252.1" y="94.2" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">&lt;/&gt;</text>
+  <text x="299.1" y="95.2" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">&lt;/&gt;</text>
+  <text x="346.5" y="96.8" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">{ }</text>
+  <text x="388.1" y="100.4" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">MEMORY</text>
+  <text x="442.3" y="101.0" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">backend</text>
+  <text x="489.3" y="96.3" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">backend</text>
+  <text x="538.7" y="97.4" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">MCP</text>
+  <text x="595.7" y="96.8" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">TypeScript</text>
+  <text x="643.9" y="101.0" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">MCP</text>
+  <text x="689.5" y="94.1" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">TypeScript</text>
+  <text x="739.8" y="100.2" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">MCP</text>
+  <text x="783.4" y="99.0" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">MEMORY</text>
+  <text x="834.8" y="98.1" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">{ }</text>
+  <text x="889.6" y="94.8" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">{ }</text>
+  <text x="932.4" y="96.2" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">MEMORY</text>
+  <text x="985.4" y="100.1" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">MEMORY</text>
+  <text x="1031.8" y="101.8" font-family="monospace" font-size="9" fill="#475569" opacity="0.11">&lt;/&gt;</text>
+  <text x="1085.4" y="97.6" font-family="monospace" font-size="11" fill="#475569" opacity="0.13">{ }</text>
+  <text x="1132.4" y="96.0" font-family="monospace" font-size="10" fill="#475569" opacity="0.15">{ }</text>
+  <text x="1186.6" y="101.1" font-family="monospace" font-size="11" fill="#475569" opacity="0.18">backend</text>
+  <text x="1226.4" y="95.0" font-family="monospace" font-size="10" fill="#475569" opacity="0.20">TypeScript</text>
+  <text x="-5.1" y="135.9" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">MEMORY</text>
+  <text x="51.3" y="140.3" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">MCP</text>
+  <text x="94.2" y="141.1" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">TypeScript</text>
+  <text x="150.7" y="134.8" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">TypeScript</text>
+  <text x="202.8" y="140.7" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">MCP</text>
+  <text x="252.1" y="137.2" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">Java</text>
+  <text x="293.7" y="134.7" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">Spring</text>
+  <text x="342.7" y="137.7" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">AGENT</text>
+  <text x="391.8" y="139.0" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">{ }</text>
+  <text x="438.4" y="141.3" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">backend</text>
+  <text x="487.3" y="136.2" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">MCP</text>
+  <text x="544.6" y="140.6" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">watsonx</text>
+  <text x="586.6" y="141.4" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">&lt;/&gt;</text>
+  <text x="642.4" y="134.7" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">AGENT</text>
+  <text x="688.3" y="134.6" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">AGENT</text>
+  <text x="742.1" y="134.7" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">backend</text>
+  <text x="784.9" y="135.0" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">AGENT</text>
+  <text x="842.9" y="137.3" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">watsonx</text>
+  <text x="880.7" y="139.7" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">MEMORY</text>
+  <text x="932.5" y="135.4" font-family="monospace" font-size="10" fill="#475569" opacity="0.11">watsonx</text>
+  <text x="985.0" y="135.6" font-family="monospace" font-size="9" fill="#475569" opacity="0.13">TypeScript</text>
+  <text x="1031.1" y="140.4" font-family="monospace" font-size="9" fill="#475569" opacity="0.15">watsonx</text>
+  <text x="1077.3" y="139.9" font-family="monospace" font-size="9" fill="#475569" opacity="0.17">{ }</text>
+  <text x="1132.5" y="136.0" font-family="monospace" font-size="9" fill="#475569" opacity="0.19">TypeScript</text>
+  <text x="1183.4" y="139.2" font-family="monospace" font-size="11" fill="#475569" opacity="0.21">TypeScript</text>
+  <text x="1236.4" y="136.5" font-family="monospace" font-size="9" fill="#475569" opacity="0.23">backend</text>
+  <text x="-1.9" y="180.7" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">MCP</text>
+  <text x="55.1" y="181.9" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">MCP</text>
+  <text x="93.3" y="179.9" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">watsonx</text>
+  <text x="143.7" y="174.7" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">Java</text>
+  <text x="198.1" y="179.5" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">AGENT</text>
+  <text x="242.4" y="176.2" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">AGENT</text>
+  <text x="293.8" y="176.6" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">{ }</text>
+  <text x="341.5" y="181.7" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">watsonx</text>
+  <text x="392.1" y="174.0" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">Java</text>
+  <text x="442.8" y="178.0" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">backend</text>
+  <text x="492.4" y="174.0" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">watsonx</text>
+  <text x="537.3" y="178.7" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">Java</text>
+  <text x="588.4" y="179.0" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">MEMORY</text>
+  <text x="641.9" y="179.7" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">&lt;/&gt;</text>
+  <text x="692.4" y="179.8" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">TypeScript</text>
+  <text x="735.9" y="178.9" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">MCP</text>
+  <text x="791.6" y="179.7" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">{ }</text>
+  <text x="839.7" y="180.5" font-family="monospace" font-size="9" fill="#475569" opacity="0.10">MCP</text>
+  <text x="890.1" y="178.7" font-family="monospace" font-size="9" fill="#475569" opacity="0.12">backend</text>
+  <text x="929.8" y="175.1" font-family="monospace" font-size="9" fill="#475569" opacity="0.14">Spring</text>
+  <text x="983.1" y="177.6" font-family="monospace" font-size="9" fill="#475569" opacity="0.16">AGENT</text>
+  <text x="1035.4" y="179.4" font-family="monospace" font-size="10" fill="#475569" opacity="0.19">TypeScript</text>
+  <text x="1077.1" y="180.4" font-family="monospace" font-size="9" fill="#475569" opacity="0.21">{ }</text>
+  <text x="1134.2" y="174.5" font-family="monospace" font-size="10" fill="#475569" opacity="0.23">TypeScript</text>
+  <text x="1185.2" y="180.8" font-family="monospace" font-size="9" fill="#475569" opacity="0.25">backend</text>
+  <text x="1227.5" y="179.2" font-family="monospace" font-size="11" fill="#475569" opacity="0.27">TypeScript</text>
+  <text x="4.1" y="214.6" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">watsonx</text>
+  <text x="50.6" y="219.1" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">MEMORY</text>
+  <text x="96.4" y="219.2" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">watsonx</text>
+  <text x="141.8" y="214.5" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">watsonx</text>
+  <text x="199.2" y="219.4" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">watsonx</text>
+  <text x="245.7" y="217.7" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">MEMORY</text>
+  <text x="293.1" y="214.7" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">TypeScript</text>
+  <text x="342.1" y="214.6" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">{ }</text>
+  <text x="399.8" y="217.1" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">backend</text>
+  <text x="444.1" y="215.1" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">{ }</text>
+  <text x="497.7" y="215.1" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">{ }</text>
+  <text x="546.2" y="219.6" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">backend</text>
+  <text x="595.5" y="217.9" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">AGENT</text>
+  <text x="634.0" y="217.9" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">TypeScript</text>
+  <text x="686.9" y="215.1" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">Spring</text>
+  <text x="736.3" y="220.7" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">AGENT</text>
+  <text x="790.7" y="220.7" font-family="monospace" font-size="9" fill="#475569" opacity="0.12">MEMORY</text>
+  <text x="839.5" y="221.2" font-family="monospace" font-size="10" fill="#475569" opacity="0.14">watsonx</text>
+  <text x="884.6" y="217.1" font-family="monospace" font-size="9" fill="#475569" opacity="0.16">&lt;/&gt;</text>
+  <text x="933.7" y="217.4" font-family="monospace" font-size="9" fill="#475569" opacity="0.18">watsonx</text>
+  <text x="982.0" y="214.4" font-family="monospace" font-size="9" fill="#475569" opacity="0.20">watsonx</text>
+  <text x="1030.8" y="216.1" font-family="monospace" font-size="10" fill="#475569" opacity="0.22">{ }</text>
+  <text x="1079.4" y="217.0" font-family="monospace" font-size="9" fill="#475569" opacity="0.24">Java</text>
+  <text x="1136.1" y="219.0" font-family="monospace" font-size="9" fill="#475569" opacity="0.26">{ }</text>
+  <text x="1184.2" y="214.4" font-family="monospace" font-size="11" fill="#475569" opacity="0.28">Java</text>
+  <text x="1232.1" y="215.1" font-family="monospace" font-size="11" fill="#475569" opacity="0.30">watsonx</text>
+  <text x="-5.4" y="261.4" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">MCP</text>
+  <text x="48.9" y="256.7" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">watsonx</text>
+  <text x="101.3" y="261.8" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">watsonx</text>
+  <text x="149.6" y="256.4" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">{ }</text>
+  <text x="192.4" y="259.1" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">MEMORY</text>
+  <text x="246.2" y="260.5" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">{ }</text>
+  <text x="294.8" y="256.7" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">TypeScript</text>
+  <text x="340.3" y="255.5" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">MEMORY</text>
+  <text x="391.9" y="254.7" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">backend</text>
+  <text x="440.2" y="258.6" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">AGENT</text>
+  <text x="490.9" y="260.0" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">backend</text>
+  <text x="538.8" y="260.0" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">TypeScript</text>
+  <text x="591.7" y="256.9" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">{ }</text>
+  <text x="635.1" y="261.2" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">Java</text>
+  <text x="691.0" y="257.5" font-family="monospace" font-size="9" fill="#475569" opacity="0.11">watsonx</text>
+  <text x="734.0" y="257.4" font-family="monospace" font-size="11" fill="#475569" opacity="0.13">TypeScript</text>
+  <text x="781.7" y="257.1" font-family="monospace" font-size="11" fill="#475569" opacity="0.15">{ }</text>
+  <text x="842.6" y="256.0" font-family="monospace" font-size="9" fill="#475569" opacity="0.17">MEMORY</text>
+  <text x="882.0" y="258.2" font-family="monospace" font-size="11" fill="#475569" opacity="0.19">MEMORY</text>
+  <text x="930.4" y="260.2" font-family="monospace" font-size="9" fill="#475569" opacity="0.22">AGENT</text>
+  <text x="981.4" y="261.4" font-family="monospace" font-size="9" fill="#475569" opacity="0.24">watsonx</text>
+  <text x="1035.4" y="258.2" font-family="monospace" font-size="9" fill="#475569" opacity="0.26">Java</text>
+  <text x="1078.3" y="256.4" font-family="monospace" font-size="9" fill="#475569" opacity="0.28">&lt;/&gt;</text>
+  <text x="1131.0" y="255.8" font-family="monospace" font-size="9" fill="#475569" opacity="0.30">&lt;/&gt;</text>
+  <text x="1175.7" y="256.4" font-family="monospace" font-size="10" fill="#475569" opacity="0.32">TypeScript</text>
+  <text x="1236.3" y="259.2" font-family="monospace" font-size="11" fill="#475569" opacity="0.34">backend</text>
+  <text x="0.3" y="298.4" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">AGENT</text>
+  <text x="51.7" y="296.5" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">AGENT</text>
+  <text x="98.4" y="299.4" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">Java</text>
+  <text x="144.8" y="299.3" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">Spring</text>
+  <text x="196.8" y="299.6" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">Java</text>
+  <text x="248.3" y="295.6" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">watsonx</text>
+  <text x="291.8" y="301.8" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">watsonx</text>
+  <text x="341.4" y="295.8" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">watsonx</text>
+  <text x="399.3" y="298.0" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">MCP</text>
+  <text x="442.9" y="301.3" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">AGENT</text>
+  <text x="497.4" y="294.4" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">AGENT</text>
+  <text x="540.5" y="299.7" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">MCP</text>
+  <text x="590.2" y="299.7" font-family="monospace" font-size="9" fill="#475569" opacity="0.11">Spring</text>
+  <text x="646.0" y="301.5" font-family="monospace" font-size="9" fill="#475569" opacity="0.13">Spring</text>
+  <text x="685.5" y="301.5" font-family="monospace" font-size="9" fill="#475569" opacity="0.15">TypeScript</text>
+  <text x="736.2" y="299.8" font-family="monospace" font-size="10" fill="#475569" opacity="0.17">Spring</text>
+  <text x="787.0" y="294.9" font-family="monospace" font-size="10" fill="#475569" opacity="0.19">MEMORY</text>
+  <text x="831.9" y="297.4" font-family="monospace" font-size="9" fill="#475569" opacity="0.21">MEMORY</text>
+  <text x="884.7" y="300.1" font-family="monospace" font-size="11" fill="#475569" opacity="0.23">watsonx</text>
+  <text x="930.4" y="299.6" font-family="monospace" font-size="10" fill="#475569" opacity="0.25">backend</text>
+  <text x="985.1" y="297.6" font-family="monospace" font-size="10" fill="#475569" opacity="0.27">Spring</text>
+  <text x="1036.7" y="297.8" font-family="monospace" font-size="9" fill="#475569" opacity="0.29">Java</text>
+  <text x="1086.8" y="300.1" font-family="monospace" font-size="11" fill="#475569" opacity="0.31">AGENT</text>
+  <text x="1126.7" y="294.5" font-family="monospace" font-size="10" fill="#475569" opacity="0.33">AGENT</text>
+  <text x="1177.9" y="294.5" font-family="monospace" font-size="10" fill="#475569" opacity="0.36">&lt;/&gt;</text>
+  <text x="1229.1" y="296.7" font-family="monospace" font-size="9" fill="#475569" opacity="0.38">&lt;/&gt;</text>
+  <text x="-2.9" y="339.7" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">Spring</text>
+  <text x="46.8" y="339.8" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">&lt;/&gt;</text>
+  <text x="92.8" y="335.9" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">TypeScript</text>
+  <text x="153.1" y="337.1" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">watsonx</text>
+  <text x="200.7" y="335.1" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">TypeScript</text>
+  <text x="240.3" y="341.4" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">watsonx</text>
+  <text x="296.7" y="336.6" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">Spring</text>
+  <text x="343.0" y="340.3" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">MEMORY</text>
+  <text x="392.5" y="335.3" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">Java</text>
+  <text x="444.9" y="337.9" font-family="monospace" font-size="10" fill="#334155" opacity="0.10">{ }</text>
+  <text x="488.2" y="337.4" font-family="monospace" font-size="9" fill="#475569" opacity="0.10">MEMORY</text>
+  <text x="538.7" y="334.7" font-family="monospace" font-size="11" fill="#475569" opacity="0.12">MEMORY</text>
+  <text x="590.8" y="339.7" font-family="monospace" font-size="9" fill="#475569" opacity="0.14">TypeScript</text>
+  <text x="636.8" y="337.3" font-family="monospace" font-size="9" fill="#475569" opacity="0.16">&lt;/&gt;</text>
+  <text x="692.2" y="340.8" font-family="monospace" font-size="10" fill="#475569" opacity="0.18">MEMORY</text>
+  <text x="736.0" y="338.5" font-family="monospace" font-size="10" fill="#475569" opacity="0.20">Spring</text>
+  <text x="790.5" y="335.6" font-family="monospace" font-size="9" fill="#475569" opacity="0.23">backend</text>
+  <text x="833.9" y="335.2" font-family="monospace" font-size="9" fill="#475569" opacity="0.25">&lt;/&gt;</text>
+  <text x="884.1" y="337.2" font-family="monospace" font-size="9" fill="#475569" opacity="0.27">backend</text>
+  <text x="937.2" y="334.8" font-family="monospace" font-size="9" fill="#475569" opacity="0.29">TypeScript</text>
+  <text x="979.8" y="337.8" font-family="monospace" font-size="11" fill="#475569" opacity="0.31">backend</text>
+  <text x="1038.8" y="334.3" font-family="monospace" font-size="9" fill="#475569" opacity="0.33">watsonx</text>
+  <text x="1078.5" y="335.5" font-family="monospace" font-size="9" fill="#475569" opacity="0.35">&lt;/&gt;</text>
+  <text x="1137.5" y="337.0" font-family="monospace" font-size="11" fill="#475569" opacity="0.37">MCP</text>
+  <text x="1182.8" y="340.2" font-family="monospace" font-size="9" fill="#475569" opacity="0.39">AGENT</text>
+  <text x="1232.4" y="339.7" font-family="monospace" font-size="9" fill="#475569" opacity="0.41">Spring</text>
+  <text x="-5.6" y="376.7" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">AGENT</text>
+  <text x="55.2" y="374.3" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">backend</text>
+  <text x="102.3" y="377.3" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">Spring</text>
+  <text x="149.1" y="374.6" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">AGENT</text>
+  <text x="197.5" y="374.5" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">MEMORY</text>
+  <text x="248.1" y="375.2" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">{ }</text>
+  <text x="297.2" y="377.2" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">watsonx</text>
+  <text x="350.5" y="379.3" font-family="monospace" font-size="9" fill="#334155" opacity="0.10">Java</text>
+  <text x="391.6" y="378.5" font-family="monospace" font-size="11" fill="#334155" opacity="0.10">Spring</text>
+  <text x="442.1" y="380.9" font-family="monospace" font-size="9" fill="#475569" opacity="0.12">Spring</text>
+  <text x="491.0" y="377.2" font-family="monospace" font-size="11" fill="#475569" opacity="0.14">AGENT</text>
+  <text x="546.4" y="377.4" font-family="monospace" font-size="11" fill="#475569" opacity="0.16">MEMORY</text>
+  <text x="591.7" y="376.9" font-family="monospace" font-size="9" fill="#475569" opacity="0.18">MCP</text>
+  <text x="634.2" y="378.4" font-family="monospace" font-size="9" fill="#475569" opacity="0.20">Java</text>
+  <text x="690.1" y="381.4" font-family="monospace" font-size="9" fill="#475569" opacity="0.22">{ }</text>
+  <text x="734.2" y="376.3" font-family="monospace" font-size="9" fill="#475569" opacity="0.24">{ }</text>
+  <text x="792.8" y="374.9" font-family="monospace" font-size="9" fill="#475569" opacity="0.26">TypeScript</text>
+  <text x="834.5" y="380.7" font-family="monospace" font-size="11" fill="#475569" opacity="0.28">AGENT</text>
+  <text x="883.9" y="378.9" font-family="monospace" font-size="9" fill="#475569" opacity="0.30">Java</text>
+  <text x="940.2" y="379.0" font-family="monospace" font-size="9" fill="#475569" opacity="0.32">MCP</text>
+  <text x="986.1" y="378.9" font-family="monospace" font-size="11" fill="#475569" opacity="0.34">backend</text>
+  <text x="1030.0" y="375.7" font-family="monospace" font-size="9" fill="#475569" opacity="0.37">Java</text>
+  <text x="1081.7" y="375.0" font-family="monospace" font-size="9" fill="#475569" opacity="0.39">backend</text>
+  <text x="1126.8" y="378.5" font-family="monospace" font-size="10" fill="#475569" opacity="0.41">AGENT</text>
+  <text x="1177.0" y="378.8" font-family="monospace" font-size="10" fill="#475569" opacity="0.43">{ }</text>
+  <text x="1232.6" y="376.5" font-family="monospace" font-size="11" fill="#475569" opacity="0.45">backend</text>
   </g>
 
-  <text x="50" y="92" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#f8fafc">
+  <text x="64" y="150" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#64748b" letter-spacing="2">
+    BUILDING AI DEVELOPER TOOLING
+  </text>
+
+  <text x="64" y="236" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="66" font-weight="700" fill="#f8fafc">
     Aniruddha Stark
   </text>
-  <text x="50" y="128" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#cbd5e1">
-    Building AI developer tooling — agent memory, MCP servers, and the backend underneath it
-  </text>
-  <text x="50" y="160" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#94a3b8">
-    IBM · Bangalore, India
+
+  <text x="64" y="280" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#cbd5e1">
+    Agent memory systems, MCP servers, and the backend engineering underneath it all.
   </text>
 
-  <rect x="50" y="172" width="46" height="4" rx="2" fill="url(#accent)"/>
+  <rect x="64" y="314" width="4" height="40" fill="url(#accent)"/>
+  <text x="84" y="330" font-family="monospace" font-size="17" fill="#94a3b8">
+    &gt;&gt; IBM · Bangalore, India
+  </text>
+  <text x="84" y="352" font-family="monospace" font-size="17" fill="#38bdf8">
+    &gt;&gt; see what I'm building below ↓
+  </text>
 </svg>
