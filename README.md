@@ -13,6 +13,16 @@
 
 ## What I'm building
 
+**[claude-skills](https://github.com/abcSTARK/claude-skills)** · *actively growing*
+A Claude Code plugin marketplace I'm building up over time. Each skill starts as a real problem solved end-to-end, then gets generalized and tested (with-skill vs. baseline comparisons) before being added.
+
+<img src="assets/claude-skills-diagram.svg" alt="claude-skills marketplace structure: marketplace.json -> plugin -> skill" width="700"/>
+
+```
+/plugin marketplace add abcSTARK/claude-skills
+/plugin install secure-file-organizer@claude-skills
+```
+
 **[dev-memory-ai-code-recall](https://github.com/abcSTARK/dev-memory-ai-code-recall)**
 Local-first memory engine for AI coding agents — lets an agent recall prior context across sessions without shipping your codebase to a third party.
 
@@ -31,17 +41,6 @@ AI agent built on IBM watsonx Orchestrate that monitors team-health signals and 
 
 **[SG_HackerVerse_CO2_Emission](https://github.com/abcSTARK/SG_HackerVerse_CO2_Emission)**
 Data/AI project predicting CO2 emissions from transaction data, built for SG Hackerverse.
-
-## claude-skills
-
-**[claude-skills](https://github.com/abcSTARK/claude-skills)** — a Claude Code plugin marketplace I'm building up over time. Each skill starts as a real problem solved end-to-end, then gets generalized and tested (with-skill vs. baseline comparisons) before being added.
-
-<img src="assets/claude-skills-diagram.svg" alt="claude-skills marketplace structure: marketplace.json -> plugin -> skill" width="700"/>
-
-```
-/plugin marketplace add abcSTARK/claude-skills
-/plugin install secure-file-organizer@claude-skills
-```
 
 ## Backend foundation
 
