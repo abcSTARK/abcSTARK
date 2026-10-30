@@ -1,10 +1,8 @@
 <div align="center">
 
-# Hi, I'm Aniruddha 👋
+<img src="assets/banner.svg" alt="Aniruddha Stark — Building AI developer tooling" width="100%"/>
 
-Building AI developer tooling — agent memory systems, MCP servers, and the backend engineering underneath all of it.
-
-Currently @ **Societe Generale** · Bangalore, India · previously IBM
+<br/>
 
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCvMjA3m4Ui3V6dE9CkjP34Q)
 [![X](https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white)](https://x.com/AniruddhaStark)
@@ -18,17 +16,32 @@ Currently @ **Societe Generale** · Bangalore, India · previously IBM
 **[dev-memory-ai-code-recall](https://github.com/abcSTARK/dev-memory-ai-code-recall)**
 Local-first memory engine for AI coding agents — lets an agent recall prior context across sessions without shipping your codebase to a third party.
 
+<img src="assets/dev-memory-screenshot.png" alt="Dev Memory — AI Code Recall: local semantic search UI" width="560"/>
+
 **[vscode-mcp-debugger](https://github.com/abcSTARK/vscode-mcp-debugger)** · *MCP Vibe Inspector*
 VS Code extension to debug and inspect Model Context Protocol servers right inside the editor — launch, configure, and inspect multiple MCP servers without ever leaving VS Code or switching to a browser.
+
+<img src="assets/vscode-mcp-debugger-screenshot.png" alt="MCP Vibe Inspector running inside VS Code" width="560"/>
 
 **[vscode-llm-fastmcp-context](https://github.com/abcSTARK/vscode-llm-fastmcp-context)**
 Adds a FastMCP-powered LLM context server to a VS Code workspace, giving coding agents richer, structured project context.
 
 **[team-wellbeing-agent](https://github.com/abcSTARK/team-wellbeing-agent)**
-AI agent on IBM watsonx Orchestrate that monitors team-health signals and proactively surfaces burnout/disengagement risk — built as a module of the AskManager platform.
+AI agent built on IBM watsonx Orchestrate that monitors team-health signals and proactively surfaces burnout/disengagement risk — a module of the AskManager platform.
 
 **[SG_HackerVerse_CO2_Emission](https://github.com/abcSTARK/SG_HackerVerse_CO2_Emission)**
 Data/AI project predicting CO2 emissions from transaction data, built for SG Hackerverse.
+
+## claude-skills
+
+**[claude-skills](https://github.com/abcSTARK/claude-skills)** — a Claude Code plugin marketplace I'm building up over time. Each skill starts as a real problem solved end-to-end, then gets generalized and tested (with-skill vs. baseline comparisons) before being added.
+
+<img src="assets/claude-skills-diagram.svg" alt="claude-skills marketplace structure: marketplace.json -> plugin -> skill" width="700"/>
+
+```
+/plugin marketplace add abcSTARK/claude-skills
+/plugin install secure-file-organizer@claude-skills
+```
 
 ## Backend foundation
 
@@ -44,11 +57,6 @@ Spring Security + Swagger UI + DB-backed role-based auth + Spring AOP, with JUni
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=spring&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=abcSTARK&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub stats" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abcSTARK&layout=compact&hide_border=true" alt="Top languages" height="165"/>
-</div>
 
 ---
 
